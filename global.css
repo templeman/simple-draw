@@ -1,0 +1,36 @@
+
+body { 
+	color: #fff;
+	font-size: 14px;
+	background-color: #222; }
+
+canvas {
+	background-color: #fff;
+	border: 1px solid #000; }
+	
+#snapshot {
+	width: 600px;
+	height: 400px;
+	border: 2px solid #fff; }
+		
+#content {
+	width: 500px;
+	margin: 30px auto 0; }
+
+#buttons input, textarea {
+	background: #ffffff;
+	border: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font: italic 13px Georgia, "Times New Roman", Times, serif;
+	outline: none;
+	padding: 5px;
+	margin-bottom: 5px;
+	width: 250px; }
+	
+#buttons input:hover {
+	background: #CCC; }
+	
+input#lineColor { width: 100px; }
